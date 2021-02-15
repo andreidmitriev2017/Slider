@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+    <div class="slider">
+        <div class="slider__wrapper">
+            <div class="slider__item">
+                <img src="https://arte1.ru/images/detailed/4/23608.jpg" alt="img" class="slider__img">
+            </div>
+            <div class="slider__item">
+                <img src="https://cs3.livemaster.ru/zhurnalfoto/6/2/7/16011402361662716f4f3b68cce49ec117607992e32218141x846773.jpg" alt="img" class="slider__img">
+            </div>
+            <div class="slider__item">
+                <img src="https://avatars.mds.yandex.net/get-zen_doc/1780598/pub_5d98a33e86c4a900b01175a1_5d98a8b27cccba00af4536a2/scale_1200" alt="img" class="slider__img">
+            </div>
+
+            <div class="slider__prev">
+                <img src="prev.png" alt="prev" class="slider__arr-Img">
+            </div>
+            <div class="slider__next">
+                <img src="next.png" alt="next" class="slider__arr-Img">
+            </div>
+        </div>
+        <div class="slider__dots">
+            <div class="slider__dot slider__dot_active"></div>
+            <div class="slider__dot"></div>
+            <div class="slider__dot"></div>
+        </div>
+    </div>
+    <script src="slider.js"></script>
+    <script>createSlider(2)</script>
+</body>
+</html>
